@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table sampler</title>
+        <meta charset="utf-8">
+    </head>
+    <style>
+    </style>
+    <body>
+        <h1>TABLE SAMPLER 1</h1>
+        <h3>Basic 3x2</h3>
+        <TABLE BORDER>
+            <TR>
+                <TD>A</TD><TD>B</TD><TD>C</TD>
+            </TR>
+            <TR>
+                <TD>D</TD><TD>E</TD><TD>F</TD>
+            </TR>
+        </TABLE>
+        <hr>
+        <h3>B Rowspan</h3>
+        <TABLE BORDER>
+            <TR>
+                <TD>A</TD>
+                <TD ROWSPAN=2>B</TD>
+                <TD>C</TD>
+            </TR>
+            <TR>
+                <TD>D</TD><TD>E</TD>
+            </TR>
+        </TABLE>
+        <hr>
+        <h3>Colspan headers.</h3>
+        <TABLE BORDER>
+            <thead>
+                <tr>
+                    <th>hi</th>
+                </tr>
+            </thead>
+            <TR>
+                <TH COLSPAN=2>COLSPAN</TH><TH COLSPAN=2>Colspan</TH>
+            </TR>
+            <TR>
+                <TD>A</TD><TD>B</TD><TD>C</TD><TD>1</TD>
+            </TR>
+            <TR>
+                <TD>D</TD><TD>E</TD><TD>F</TD><TD>2</TD>
+            </TR>
+        </TABLE>
+        <hr>
+        <h3>Rowspan, colspan, and headers.</h3>
+        <TABLE BORDER>
+            <TR>
+                <TD><TH ROWSPAN=2></TH>
+                <TH COLSPAN=2>1</TH></TD>
+            </TR>
+            <TR>
+                <TD><TH>2</TH><TH>3</TH</TD>
+            </TR>
+            <TR>
+                <TH ROWSPAN=2>4</TH>
+                <TH>AAAA</TH><TD>B</TD><TD>C</TD>
+            </TR>
+            <TR>
+                <TD>DDDD</TD><TD>E</TD><TD>F</TD>
+            </TR>
+        </TABLE>
+        <hr>
+        <a href="TS2.html">Number 2 </a>
+        <a href="TS3.html">Number 3 </a>
+        <a href="TS4.html">Number 4</a>
+    </body>
+</html>
